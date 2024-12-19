@@ -1,0 +1,128 @@
+[
+    {
+        "code": "A",
+        "rawCode": "A",
+        "version": 2,
+        "name": "Agricultura, Silvicultura si Pescuit"
+    },
+    {
+        "code": "B",
+        "rawCode": "B",
+        "version": 2,
+        "name": "Industria extractiva"
+    },
+    {
+        "code": "C",
+        "rawCode": "C",
+        "version": 2,
+        "name": "Industria prelucratoare"
+    },
+    {
+        "code": "D",
+        "rawCode": "D",
+        "version": 2,
+        "name": "Productia si furnizarea de energie electrica si termica, Gaze, Apa calda si Aer conditionat"
+    },
+    {
+        "code": "E",
+        "rawCode": "E",
+        "version": 2,
+        "name": "Distributia apei, Salubritate, Gestionarea deseurilor, Activitati de decontaminare a terenurilor"
+    },
+    {
+        "code": "F",
+        "rawCode": "F",
+        "version": 2,
+        "name": "Constructii"
+    },
+    {
+        "code": "G",
+        "rawCode": "G",
+        "version": 2,
+        "name": "Comert cu ridicata si cu amanuntul, Repararea autovehiculelor si motocicletelor"
+    },
+    {
+        "code": "H",
+        "rawCode": "H",
+        "version": 2,
+        "name": "Transport si Depozitare"
+    },
+    {
+        "code": "I",
+        "rawCode": "I",
+        "version": 2,
+        "name": "Hoteluri si Restaurante"
+    },
+    {
+        "code": "J",
+        "rawCode": "J",
+        "version": 2,
+        "name": "Informatii si Telecomunicatii"
+    },
+    {
+        "code": "K",
+        "rawCode": "K",
+        "version": 2,
+        "name": "Intermedieri financiare si Asigurari"
+    },
+    {
+        "code": "L",
+        "rawCode": "L",
+        "version": 2,
+        "name": "Tranzactii imobiliare"
+    },
+    {
+        "code": "M",
+        "rawCode": "M",
+        "version": 2,
+        "name": "Activitati profesionale, stiintifice si tehnice"
+    },
+    {
+        "code": "N",
+        "rawCode": "N",
+        "version": 2,
+        "name": "Activitati de servicii administrative si Activitati de servicii suport"
+    },
+    {
+        "code": "O",
+        "rawCode": "O",
+        "version": 2,
+        "name": "Administratie publica si Aparare, Asigurari sociale din sistemul public"
+    },
+    {
+        "code": "P",
+        "rawCode": "P",
+        "version": 2,
+        "name": "Invatamant"
+    },
+    {
+        "code": "Q",
+        "rawCode": "Q",
+        "version": 2,
+        "name": "Sanatate si Asistenta sociala"
+    },
+    {
+        "code": "R",
+        "rawCode": "R",
+        "version": 2,
+        "name": "Activitati de spectacole, culturale si recreative"
+    },
+    {
+        "code": "S",
+        "rawCode": "S",
+        "version": 2,
+        "name": "Alte activitati de servicii"
+    },
+    {
+        "code": "T",
+        "rawCode": "T",
+        "version": 2,
+        "name": "Activitati ale gospodariilor private in calitate de angajator de personal casnic, producere de bunuri si servicii destinate consumului propriu"
+    },
+    {
+        "code": "U",
+        "rawCode": "U",
+        "version": 2,
+        "name": "Activitati ale organizatiilor si organismelor extrateritoriale"
+    }
+]

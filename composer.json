@@ -20,6 +20,7 @@
     "ramsey/conventional-commits": "^1.5",
     "symfony/console": "^6.0 || ^7.0",
     "symfony/translation": "^6.0 || ^7.0",
+    "symfony/yaml": "^6.0 || ^7.0",
     "vimeo/psalm": "^5.26"
   },
   "autoload": {

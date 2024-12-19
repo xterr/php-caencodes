@@ -1,0 +1,618 @@
+[
+    {
+        "code": "01",
+        "rawCode": "01",
+        "version": 2,
+        "name": "Agricultura, vanatoare si servicii anexe",
+        "section": "A"
+    },
+    {
+        "code": "02",
+        "rawCode": "02",
+        "version": 2,
+        "name": "Silvicultura si exploatare forestiera",
+        "section": "A"
+    },
+    {
+        "code": "03",
+        "rawCode": "03",
+        "version": 2,
+        "name": "Pescuitul si acvacultura",
+        "section": "A"
+    },
+    {
+        "code": "05",
+        "rawCode": "05",
+        "version": 2,
+        "name": "Extractia carbunelui superior si inferior",
+        "section": "B"
+    },
+    {
+        "code": "06",
+        "rawCode": "06",
+        "version": 2,
+        "name": "Extractia petrolului brut si a gazelor naturale",
+        "section": "B"
+    },
+    {
+        "code": "07",
+        "rawCode": "07",
+        "version": 2,
+        "name": "Extractia minereurilor metalifere",
+        "section": "B"
+    },
+    {
+        "code": "08",
+        "rawCode": "08",
+        "version": 2,
+        "name": "Alte activitati extractive",
+        "section": "B"
+    },
+    {
+        "code": "09",
+        "rawCode": "09",
+        "version": 2,
+        "name": "Activitati de servicii anexe extractiei",
+        "section": "B"
+    },
+    {
+        "code": "10",
+        "rawCode": "10",
+        "version": 2,
+        "name": "Industria alimentara",
+        "section": "C"
+    },
+    {
+        "code": "11",
+        "rawCode": "11",
+        "version": 2,
+        "name": "Fabricarea bauturilor",
+        "section": "C"
+    },
+    {
+        "code": "12",
+        "rawCode": "12",
+        "version": 2,
+        "name": "Fabricarea produselor din tutun",
+        "section": "C"
+    },
+    {
+        "code": "13",
+        "rawCode": "13",
+        "version": 2,
+        "name": "Fabricarea produselor textile",
+        "section": "C"
+    },
+    {
+        "code": "14",
+        "rawCode": "14",
+        "version": 2,
+        "name": "Fabricarea articolelor de imbracaminte",
+        "section": "C"
+    },
+    {
+        "code": "15",
+        "rawCode": "15",
+        "version": 2,
+        "name": "Tabacirea si finisarea pieilor; fabricarea articolelor de voiaj si marochinarie, harnasamentelor si incaltamintei; prepararea si vopsirea blanurilor",
+        "section": "C"
+    },
+    {
+        "code": "16",
+        "rawCode": "16",
+        "version": 2,
+        "name": "Prelucrarea lemnului, fabricarea produselor din lemn si pluta, cu exceptia mobilei; fabricarea articolelor din paie si din alte materiale vegetale impletite",
+        "section": "C"
+    },
+    {
+        "code": "17",
+        "rawCode": "17",
+        "version": 2,
+        "name": "Fabricarea hartiei si a produselor din hartie",
+        "section": "C"
+    },
+    {
+        "code": "18",
+        "rawCode": "18",
+        "version": 2,
+        "name": "Tiparire si reproducerea pe suporti a inregistrarilor",
+        "section": "C"
+    },
+    {
+        "code": "19",
+        "rawCode": "19",
+        "version": 2,
+        "name": "Fabricarea produselor de cocserie si a produselor obtinute din prelucrarea titeiului",
+        "section": "C"
+    },
+    {
+        "code": "20",
+        "rawCode": "20",
+        "version": 2,
+        "name": "Fabricarea substantelor si a produselor chimice",
+        "section": "C"
+    },
+    {
+        "code": "21",
+        "rawCode": "21",
+        "version": 2,
+        "name": "Fabricarea produselor farmaceutice de baza si a preparatelor farmaceutice",
+        "section": "C"
+    },
+    {
+        "code": "22",
+        "rawCode": "22",
+        "version": 2,
+        "name": "Fabricarea produselor din cauciuc si mase plastice",
+        "section": "C"
+    },
+    {
+        "code": "23",
+        "rawCode": "23",
+        "version": 2,
+        "name": "Fabricarea altor produse din minerale nemetalice",
+        "section": "C"
+    },
+    {
+        "code": "24",
+        "rawCode": "24",
+        "version": 2,
+        "name": "Industria metalurgica",
+        "section": "C"
+    },
+    {
+        "code": "25",
+        "rawCode": "25",
+        "version": 2,
+        "name": "Industria constructiilor metalice si a produselor din metal, exclusiv masini, utilaje . si instalatii",
+        "section": "C"
+    },
+    {
+        "code": "26",
+        "rawCode": "26",
+        "version": 2,
+        "name": "Fabricarea calculatoarelor si a produselor electronice si optice",
+        "section": "C"
+    },
+    {
+        "code": "27",
+        "rawCode": "27",
+        "version": 2,
+        "name": "Fabricarea echipamentelor electrice",
+        "section": "C"
+    },
+    {
+        "code": "28",
+        "rawCode": "28",
+        "version": 2,
+        "name": "Fabricarea de masini, utilaje si echipamente n.c.a.",
+        "section": "C"
+    },
+    {
+        "code": "29",
+        "rawCode": "29",
+        "version": 2,
+        "name": "Fabricarea autovehiculelor de transport rutier, a remorcilor si semiremorcilor",
+        "section": "C"
+    },
+    {
+        "code": "30",
+        "rawCode": "30",
+        "version": 2,
+        "name": "Fabricarea altor mijloace de transport",
+        "section": "C"
+    },
+    {
+        "code": "31",
+        "rawCode": "31",
+        "version": 2,
+        "name": "Fabricarea de mobila",
+        "section": "C"
+    },
+    {
+        "code": "32",
+        "rawCode": "32",
+        "version": 2,
+        "name": "Alte activitati industriale n.c.a.",
+        "section": "C"
+    },
+    {
+        "code": "33",
+        "rawCode": "33",
+        "version": 2,
+        "name": "Repararea, intretinerea si instalarea masinilor si echipamentelor",
+        "section": "C"
+    },
+    {
+        "code": "35",
+        "rawCode": "35",
+        "version": 2,
+        "name": "Productia si furnizarea de energie electrica si termica, gaze, apa calda si aer conditionat",
+        "section": "D"
+    },
+    {
+        "code": "36",
+        "rawCode": "36",
+        "version": 2,
+        "name": "Captarea, tratarea si distributia apei",
+        "section": "E"
+    },
+    {
+        "code": "37",
+        "rawCode": "37",
+        "version": 2,
+        "name": "Colectarea si epurarea apelor uzate",
+        "section": "E"
+    },
+    {
+        "code": "38",
+        "rawCode": "38",
+        "version": 2,
+        "name": "Colectarea, tratarea si eliminarea deseurilor; activitati de recuperare a materialelor reciclabile",
+        "section": "E"
+    },
+    {
+        "code": "39",
+        "rawCode": "39",
+        "version": 2,
+        "name": "Activitati si servicii de decontaminare",
+        "section": "E"
+    },
+    {
+        "code": "41",
+        "rawCode": "41",
+        "version": 2,
+        "name": "Constructii de cladiri",
+        "section": "F"
+    },
+    {
+        "code": "42",
+        "rawCode": "42",
+        "version": 2,
+        "name": "Lucrari de geniu civil",
+        "section": "F"
+    },
+    {
+        "code": "43",
+        "rawCode": "43",
+        "version": 2,
+        "name": "Lucrari speciale de constructii",
+        "section": "F"
+    },
+    {
+        "code": "45",
+        "rawCode": "45",
+        "version": 2,
+        "name": "Comert cu ridicata si cu amanuntul, intretinerea si repararea autovehiculelor si a motocicletelor",
+        "section": "G"
+    },
+    {
+        "code": "46",
+        "rawCode": "46",
+        "version": 2,
+        "name": "Comert cu ridicata cu exceptia comertului cu autovehicule si motociclete",
+        "section": "G"
+    },
+    {
+        "code": "47",
+        "rawCode": "47",
+        "version": 2,
+        "name": "Comert cu amanuntul, cu exceptia autovehiculelor si motocicletelor",
+        "section": "G"
+    },
+    {
+        "code": "49",
+        "rawCode": "49",
+        "version": 2,
+        "name": "Transporturi terestre si transporturi prin conducte",
+        "section": "H"
+    },
+    {
+        "code": "50",
+        "rawCode": "50",
+        "version": 2,
+        "name": "Transporturi pe apa",
+        "section": "H"
+    },
+    {
+        "code": "51",
+        "rawCode": "51",
+        "version": 2,
+        "name": "Transporturi aeriene",
+        "section": "H"
+    },
+    {
+        "code": "52",
+        "rawCode": "52",
+        "version": 2,
+        "name": "Depozitare si activitati auxiliare pentru transporturi",
+        "section": "H"
+    },
+    {
+        "code": "53",
+        "rawCode": "53",
+        "version": 2,
+        "name": "Activitati de posta si de curier",
+        "section": "H"
+    },
+    {
+        "code": "55",
+        "rawCode": "55",
+        "version": 2,
+        "name": "Hoteluri si alte facilitati de cazare",
+        "section": "I"
+    },
+    {
+        "code": "56",
+        "rawCode": "56",
+        "version": 2,
+        "name": "Restaurante si alte activitati de servicii de alimentatie",
+        "section": "I"
+    },
+    {
+        "code": "58",
+        "rawCode": "58",
+        "version": 2,
+        "name": "Activitati de editare",
+        "section": "J"
+    },
+    {
+        "code": "59",
+        "rawCode": "59",
+        "version": 2,
+        "name": "Activitati de productie cinematografica, video si de programe de televiziune; inregistrari audio si activitati de editare muzicala",
+        "section": "J"
+    },
+    {
+        "code": "60",
+        "rawCode": "60",
+        "version": 2,
+        "name": "Activitati de difuzare si transmitere de programe",
+        "section": "J"
+    },
+    {
+        "code": "61",
+        "rawCode": "61",
+        "version": 2,
+        "name": "Telecomunicatii",
+        "section": "J"
+    },
+    {
+        "code": "62",
+        "rawCode": "62",
+        "version": 2,
+        "name": "Activitati de servicii in tehnologia informatiei",
+        "section": "J"
+    },
+    {
+        "code": "63",
+        "rawCode": "63",
+        "version": 2,
+        "name": "Activitati de servicii informatice",
+        "section": "J"
+    },
+    {
+        "code": "64",
+        "rawCode": "64",
+        "version": 2,
+        "name": "Intermedieri financiare, cu exceptia activitatilor de asigurari si ale fondurilor de pensii",
+        "section": "K"
+    },
+    {
+        "code": "65",
+        "rawCode": "65",
+        "version": 2,
+        "name": "Activitati de asigurari, reasigurari si ale fondurilor de pensii (cu exceptia celor din sistemul public de asigurari sociale)",
+        "section": "K"
+    },
+    {
+        "code": "66",
+        "rawCode": "66",
+        "version": 2,
+        "name": "Activitati auxiliare intermedierilor financiare, activitati de asigurare si fonduri de pensii",
+        "section": "K"
+    },
+    {
+        "code": "68",
+        "rawCode": "68",
+        "version": 2,
+        "name": "Tranzactii imobiliare",
+        "section": "L"
+    },
+    {
+        "code": "69",
+        "rawCode": "69",
+        "version": 2,
+        "name": "Activitati juridice si de contabilitate",
+        "section": "M"
+    },
+    {
+        "code": "70",
+        "rawCode": "70",
+        "version": 2,
+        "name": "Activitati ale directiilor (centralelor), birourilor administrative centralizate; activitati de management si de consultanta in management",
+        "section": "M"
+    },
+    {
+        "code": "71",
+        "rawCode": "71",
+        "version": 2,
+        "name": "Activitati de arhitectura si inginerie; activitati de testari si analiza tehnica",
+        "section": "M"
+    },
+    {
+        "code": "72",
+        "rawCode": "72",
+        "version": 2,
+        "name": "Cercetare-dezvoltare",
+        "section": "M"
+    },
+    {
+        "code": "73",
+        "rawCode": "73",
+        "version": 2,
+        "name": "Publicitate si activitati de studiere a pietei",
+        "section": "M"
+    },
+    {
+        "code": "74",
+        "rawCode": "74",
+        "version": 2,
+        "name": "Alte activitati profesionale, stiintifice si tehnice",
+        "section": "M"
+    },
+    {
+        "code": "75",
+        "rawCode": "75",
+        "version": 2,
+        "name": "Activitati veterinare",
+        "section": "M"
+    },
+    {
+        "code": "77",
+        "rawCode": "77",
+        "version": 2,
+        "name": "Activitati de inchiriere si leasing",
+        "section": "N"
+    },
+    {
+        "code": "78",
+        "rawCode": "78",
+        "version": 2,
+        "name": "Activitati de servicii privind forta de munca",
+        "section": "N"
+    },
+    {
+        "code": "79",
+        "rawCode": "79",
+        "version": 2,
+        "name": "ctivitati ale agentiilor turistice si a tur-operatorilor; alte servicii de rezervare si asistenta ",
+        "section": "N"
+    },
+    {
+        "code": "80",
+        "rawCode": "80",
+        "version": 2,
+        "name": "Activitati de investigatii si protectie",
+        "section": "N"
+    },
+    {
+        "code": "81",
+        "rawCode": "81",
+        "version": 2,
+        "name": "Activitati de peisagistica si servicii pentru cladiri",
+        "section": "N"
+    },
+    {
+        "code": "82",
+        "rawCode": "82",
+        "version": 2,
+        "name": "Activitati de secretariat, servicii suport si alte activitati de servicii prestate in principal intreprinderilor",
+        "section": "N"
+    },
+    {
+        "code": "84",
+        "rawCode": "84",
+        "version": 2,
+        "name": "Administratie publica si aparare; asigurari sociale din sistemul public",
+        "section": "O"
+    },
+    {
+        "code": "85",
+        "rawCode": "85",
+        "version": 2,
+        "name": "Invatamant",
+        "section": "P"
+    },
+    {
+        "code": "86",
+        "rawCode": "86",
+        "version": 2,
+        "name": "Activitati referitoare la sanatatea umana",
+        "section": "Q"
+    },
+    {
+        "code": "87",
+        "rawCode": "87",
+        "version": 2,
+        "name": "Servicii combinate de ingrijire medicala si asistenta sociala, cu cazare",
+        "section": "Q"
+    },
+    {
+        "code": "88",
+        "rawCode": "88",
+        "version": 2,
+        "name": "Activitati de asistenta sociala, fara cazare",
+        "section": "Q"
+    },
+    {
+        "code": "90",
+        "rawCode": "90",
+        "version": 2,
+        "name": "Activitati de creatie si interpretare artistica",
+        "section": "R"
+    },
+    {
+        "code": "91",
+        "rawCode": "91",
+        "version": 2,
+        "name": "Activitati ale bibliotecilor, arhivelor, muzeelor si alte activitati culturale",
+        "section": "R"
+    },
+    {
+        "code": "92",
+        "rawCode": "92",
+        "version": 2,
+        "name": "Activitati de jocuri de noroc si pariuri",
+        "section": "R"
+    },
+    {
+        "code": "93",
+        "rawCode": "93",
+        "version": 2,
+        "name": "Activitati sportive, recreative si distractive",
+        "section": "R"
+    },
+    {
+        "code": "94",
+        "rawCode": "94",
+        "version": 2,
+        "name": "Activitati asociative diverse",
+        "section": "S"
+    },
+    {
+        "code": "95",
+        "rawCode": "95",
+        "version": 2,
+        "name": "Reparatii de calculatoare, de articole personale si de uz gospodaresc",
+        "section": "S"
+    },
+    {
+        "code": "96",
+        "rawCode": "96",
+        "version": 2,
+        "name": "Alte activitati de servicii",
+        "section": "S"
+    },
+    {
+        "code": "97",
+        "rawCode": "97",
+        "version": 2,
+        "name": "Activitati ale gospodariilor private in calitate de angajator de personal casnic",
+        "section": "T"
+    },
+    {
+        "code": "98",
+        "rawCode": "98",
+        "version": 2,
+        "name": "ctivitati ale gospodariilor private de producere de bunuri si servicii destinate consumului propriu ",
+        "section": "T"
+    },
+    {
+        "code": "99",
+        "rawCode": "99",
+        "version": 2,
+        "name": "Activitati ale organizatiilor si organismelor extrateritoriale",
+        "section": "U"
+    }
+]

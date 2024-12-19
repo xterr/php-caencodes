@@ -1,0 +1,92 @@
+#!/usr/bin/env php
+<?php
+
+require __DIR__ . '/../vendor/autoload.php';
+
+use Symfony\Component\Console\Exception\InvalidArgumentException;
+use Symfony\Component\Console\Input\InputInterface;
+use Symfony\Component\Console\Input\InputOption;
+use Symfony\Component\Console\Output\OutputInterface;
+use Symfony\Component\Console\SingleCommandApplication;
+use Symfony\Component\Yaml\Yaml;
+use Xterr\CaenCodes\CaenVersion;
+use function Symfony\Component\String\u;
+
+(new SingleCommandApplication())
+    ->setVersion('2.0')
+    ->addOption('file', 'f', InputOption::VALUE_REQUIRED)
+    ->addOption('output-dir', 'o', InputOption::VALUE_OPTIONAL, 'Output Directory', __DIR__ . '/../Resources')
+    ->setCode(function (InputInterface $input, OutputInterface $output) {
+        $filename  = $input->getOption('file');
+        $outputDir = $input->getOption('output-dir');
+
+        if (!$filename) {
+            throw new InvalidArgumentException('File option is required');
+        }
+
+        $data = json_decode(file_get_contents($filename), true);
+
+        $aSections     = [];
+        $aDivisions    = [];
+        $aGroups       = [];
+        $aClasses      = [];
+        $aTranslations = [];
+
+        foreach ($data as $item) {
+            $code             = $item['code'];
+            $aSections[$code] = [
+                'code'    => $code,
+                'rawCode' => $code,
+                'version' => CaenVersion::VERSION_2,
+                'name'    => u($item['title'])->ascii()->toString(),
+            ];
+
+            foreach ($item['children'] as $division) {
+                $divisionCode              = $division['code'];
+                $aDivisions[$divisionCode] = [
+                    'code'    => $divisionCode,
+                    'rawCode' => $divisionCode,
+                    'version' => CaenVersion::VERSION_2,
+                    'name'    => u($division['title'])->ascii()->toString(),
+                    'section' => $code,
+                ];
+
+                foreach ($division['children'] as $group) {
+                    $groupCode           = $group['code'];
+                    $aGroups[$groupCode] = [
+                        'code'     => $groupCode,
+                        'rawCode'  => $groupCode,
+                        'version'  => CaenVersion::VERSION_2,
+                        'name'     => u($group['title'])->ascii()->toString(),
+                        'division' => $divisionCode,
+                        'section'  => $code,
+                    ];
+
+                    foreach ($group['children'] as $class) {
+                        $classCode            = $class['code'];
+                        $aClasses[$classCode] = [
+                            'code'     => $classCode,
+                            'rawCode'  => $classCode,
+                            'version'  => CaenVersion::VERSION_2,
+                            'name'     => u($class['title'])->ascii()->toString(),
+                            'group'    => $groupCode,
+                            'division' => $divisionCode,
+                            'section'  => $code,
+                        ];
+                    }
+                }
+            }
+        }
+
+
+        foreach ($aTranslations as $language => $messages) {
+            $yaml = Yaml::dump($messages, 2, 2);
+            file_put_contents(sprintf('./Resources/translations/messages_%s.yaml', $language), $yaml);
+        }
+
+        file_put_contents('./Resources/caenSections.json', json_encode(array_values($aSections), JSON_PRETTY_PRINT));
+        file_put_contents('./Resources/caenDivisions.json', json_encode(array_values($aDivisions), JSON_PRETTY_PRINT));
+        file_put_contents('./Resources/caenGroups.json', json_encode(array_values($aGroups), JSON_PRETTY_PRINT));
+        file_put_contents('./Resources/caenCodes.json', json_encode(array_values($aClasses), JSON_PRETTY_PRINT));
+    })
+    ->run();
